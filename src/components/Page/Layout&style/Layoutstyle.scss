@@ -1,0 +1,197 @@
+
+$color-hover: #ffa200 ;
+$color-triangle: #7b7b7b ;  
+
+.main-container {
+  display: flex;
+  justify-content: center; 
+  height: 100%; 
+}
+.ant-btnmain {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+
+  width: 30rem; 
+  height: 10rem; 
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  padding: 10px;
+  align-items: center; 
+ 
+
+}
+  
+  .ant-btnmain:hover {
+    background-color: $color-hover;
+  }
+  
+  .ant-btn1 {
+    position: absolute; 
+  top: 50%; 
+  left: 80%; 
+  transform: translate(-50%, -50%); 
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    &:hover {
+      background-color:$color-hover;
+    }
+  }
+  .ant-btn2 {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    padding: 16px  100px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    height: 102%;
+  display: flex;
+    &:hover {
+      background-color: $color-hover;
+     
+    }
+  }
+  .ant-btn3 {
+    position: absolute; 
+    top: 50%; 
+    left:22%; 
+    transform: translate(-50%, -50%); 
+   
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    padding: 16px  32px;
+    font-size: 18px;
+    font-weight: bold;
+    &:hover {
+      background-color: $color-hover;
+     
+    }
+  }
+  
+  .triangle { 
+    width: 0px;
+   height: 0px;
+   border-style: solid;
+   border-width: 75px 167px 75px 0;
+   border-color: transparent $color-triangle transparent transparent;
+   transform: rotate(0deg);
+}
+  .triangle2 {
+    width: 0px;
+   height: 0px;
+   border-style: solid;
+   border-width: 0 72px 150px 72px;
+   border-color: transparent transparent $color-triangle transparent;
+   transform: rotate(0deg);
+
+    
+}
+  .triangle3 {
+    width: 0px;
+   height: 0px;
+   border-style: solid;
+   border-width: 150px 72px 0 72px;
+   border-color: $color-triangle transparent transparent transparent;
+   transform: rotate(0deg);
+   position: absolute; 
+  left: 50%; 
+}
+  .triangle4 {
+    width: 0px;
+   height: 0px;
+   border-style: solid;
+   border-width: 75px 0 75px 189px;
+   border-color: transparent transparent transparent $color-triangle;
+   transform: rotate(0deg);
+    
+}
+.hr{
+    color: #000000;
+}
+
+.oval {
+  height: 50px;
+  width: 100px;
+  background-color: $color-triangle;
+  border-radius: 50%;
+}
+
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: $color-triangle;
+}
+
+.parallelogram {
+  width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+	background: $color-triangle;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: $color-triangle;
+  border-radius: 50%;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: $color-triangle;
+}
+
+.trapezoid {
+  border-bottom: 50px solid $color-triangle;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
+------------
+.grid-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); 
+gap: 10px; 
+}
+.grid-item {
+padding: 100px;
+text-align: center;
+width: auto;
+}
+.grid-item2 {
+background-color: #917474;
+padding: 100px;
+text-align: center;
+}
+.label {
+color: white;
+font-size: 10px;
+background-color:#6eda78  ;
+border-radius: 10px;
+}
+.label2 {
+color: white;
+font-size: 10px;
+background-color:#6eda78  ;
+border-radius: 10px;
+transform: translate(-85%, 990%); 
+}
+.main{
+display: flex;
+justify-content: flex-end;
+}
+
+           
